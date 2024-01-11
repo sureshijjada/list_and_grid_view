@@ -1,0 +1,45 @@
+.list-li {
+  height: 30%;
+  width: 60%;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px;
+  border: 2px solid gray;
+}
+.badge {
+  font-size: 15px;
+  color: black;
+  background-color: greenyellow;
+  height: 30px;
+  width: 60px;
+  border-radius: 8px;
+  text-align: left;
+  padding: 5px;
+  font-weight: bold;
+}
+.productTitle {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+.variants {
+  font-size: 12px;
+  font-weight: 200;
+  color: black;
+}
+@media (max-width: 576px) {
+  .list-li {
+    height: 30%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+    border: 2px solid gray;
+  }
+}
